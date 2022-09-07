@@ -11,9 +11,11 @@ counters.forEach((counter) => {
     const increament = dataCount / 100;
 
     if (intialNumber < dataCount) {
-      counter.innerHTML = `${intialNumber + increament}`;
+      counter.innerHTML = `${Math.round(intialNumber + increament)}`;
 
-      setTimeout(updateCounter, 1000);
+      setTimeout(updateCounter, 10);
+    } else {
+      counter.innerHTML = dataCount;
     }
   };
 
