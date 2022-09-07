@@ -5,7 +5,7 @@
 }
 
 .main-container {
-  background-color: #8e44ad;
+  background-color: #117a65;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -45,4 +45,25 @@ i {
   color: #f7f9f9;
   font-weight: 500;
   font-size: 1.3rem;
+}
+
+@media screen and (max-width: 420px) {
+  .counter {
+    font-size: 2rem;
+    color: #f1c40f;
+    font-weight: 500;
+  }
+
+  .item {
+    margin: 20px;
+  }
+
+  .icons {
+    font-size: 50px;
+  }
+  .para {
+    color: #f7f9f9;
+    font-weight: 500;
+    font-size: 1rem;
+  }
 }
